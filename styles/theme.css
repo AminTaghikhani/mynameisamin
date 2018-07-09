@@ -1,0 +1,636 @@
+body {
+	background: #273747;
+	color: #63798F;
+}
+
+h1 {
+	color: #fff;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #EFC94C;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	margin: 1em 0;
+	text-shadow: 1px 1px 10px #1F2B38;
+}
+
+p {
+	color: #8da0b5;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	font-size: 0.85em;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	margin-bottom: 2.4em;
+}
+
+p::selection {
+    background: #fff;
+    color: #262E31;
+}
+
+p::-moz-selection {
+   background: #fff;
+   color: #262E31;
+}
+
+a {
+	color: #EFC94C;
+	transition: color .25s ease-in-out;
+	-webkit-transition: color .25s ease-in-out;
+}
+
+a:hover {
+	color: #fff;
+}
+
+em {
+	/*color: #ADC5DE;*/
+	font-style: normal;
+}
+
+blockquote {
+	margin-bottom: 3em;
+}
+
+blockquote cite {
+	color: #6DBCDB;
+	font-family: Questrial, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+footer {
+	background: #182633;
+	color: #4F6880;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	padding: 3em;
+	text-align: center;
+	text-shadow: none;	
+}
+
+
+/* Navbar
+--------------------------------------------------------*/
+
+.navbar-inverse {
+	background-color: #273747;
+	border-color: #273747;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #273747;
+}
+
+.nav > li > a {
+	color: #43586E;
+	font-family: 'Museo Sans W01 500';
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #67819C;
+	transition: color .25s ease-in-out;
+	-webkit-transition: color .25s ease-in-out;
+}
+
+
+/* Buttons
+--------------------------------------------------------*/
+
+.btn {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Jumbotron Styles 
+--------------------------------------------------------*/
+
+
+.jumbotron {
+	background: inherit;
+}
+
+.jumbotron h1 {
+	border-top: 1px solid #324659;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+	padding-top: 1em;
+	text-shadow: 0 0 10px #1D2A36;
+	text-transform: uppercase;
+}
+
+.jumbotron p {
+	line-height: 1.7;
+}
+
+/* Spices
+--------------------------------------------------------*/
+
+
+.spice {
+	font-size: 0.9em;
+	padding: 6em 2em;
+	text-align: center;
+}
+
+.spice-big {
+	padding: 15em 2em;
+}
+
+.spice h1 {
+	color: #fff;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	font-size: 3.1em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 1.8em;
+}
+
+.spice p {
+	font-size: 1.7em;
+	font-family: Lato, arial, sans-serif;
+	width: 80%;
+	margin: auto;
+}
+
+.spice-primary {
+	background: #FC4349;
+	box-shadow: 0 0 5px #162330;
+}
+
+.spice-primary h1 {
+	text-shadow: 0 0 6px #C93035;
+}
+
+.spice-primary p {
+	color: #73292B;
+}
+
+.spice-secondary {
+	background: #6DBCDB;
+}
+
+.spice-secondary h1 {
+	text-shadow: 0 0 3px #387C96;
+}
+
+.spice-secondary p {
+	color: #0E3B4D;
+}
+
+
+/* Tags
+--------------------------------------------------------*/
+
+ul.tags {
+	padding-left: 0;
+}
+
+ul.tags, ul.tags li {
+	list-style: none;
+}
+
+ul.tags li {
+	background: #15202d;	
+	border-radius: 9px;
+	color: #fff;
+	display: inline;
+	font-size: 0.7em;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	padding: 4px 11px;
+	text-shadow: 0 0 3px #111C26;
+}
+
+
+/* Text highlighters
+--------------------------------------------------------*/
+ 
+.text-highlight-primary {
+    color: #FC4349;
+}
+
+.text-highlight-secondary {
+	color: #6DBCDB;
+}
+
+
+/* Section Hello 
+--------------------------------------------------------*/
+#section-hello{
+	height: 100vh;
+}
+#section-hello, #section-hello h1 {
+	color: #fff;
+	font-family: 'Questrial', helvetica, arial, sans-serif;	
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+
+#section-hello h1 {
+	margin-bottom: 30px;
+	text-transform: none;
+}
+
+#section-hello #description {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	word-spacing: 9px;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+}
+
+#section-hello #img-placeholder {
+	background-image: url("../images/img-bg.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	width: auto;
+	height: 459px;
+	text-align: center;
+	padding-top: 90px;
+	padding-left: 21px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+#section-hello img {
+	border: 3px solid #fff;
+	border-radius: 200px;
+	margin: 58px 0;
+}
+
+.socialMedia{
+	list-style-type: none;
+	width:120px;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+}
+.socialMedia>li{
+    list-style-type: none;
+	display: inline-block;
+    width:48px;
+    height:48px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.socialMedia>li>a{
+    display: block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+}
+.socialMedia .github{
+	background-image: url('../images/github.png');
+}
+.socialMedia .linkedin{
+	background-image: url('../images/linkedin.png');
+}
+
+/* Skills 
+--------------------------------------------------------*/
+
+#section-skills h2 {
+	font-size: 1.15em;
+	margin-bottom: 0;
+}
+
+#section-skills #skills {
+	list-style: none;
+	padding-left: 0;
+}
+
+#section-skills #skills .skill-category {
+	margin-bottom: 2.5em;
+}
+
+/* Work Experience 
+--------------------------------------------------------*/
+
+.experiences {
+	padding-left: 0;
+}
+
+.experiences, .experiences li {
+	list-style: none;
+}
+
+.experiences li {
+	line-height: 1.5em;
+}
+
+.experiences {
+	margin-bottom: 3em;
+}
+
+.experiences .experience {
+	margin-bottom: 2em;
+}
+
+.experiences .experience:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.experience .experience-details {
+	float: left; 
+	font-size: 0.9em;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+}
+
+.experience date {
+	color: #748ca5;
+	float: left;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;	
+	font-weight: normal;
+	margin-right: 1.5em;
+}
+
+.experience .company {
+	color: #A6F3FF;
+	font-size: 1.1em;
+}
+
+.experience .position {
+	color: #fff;
+	float: left; 
+	font-size: 0.9em;
+	font-family: 'Questrial', helvetica, arial, sans-serif;	
+	letter-spacing: 1px;
+}
+
+/* Qualifications 
+--------------------------------------------------------*/
+
+.qualifications {
+	padding-left: 0;
+}
+
+.qualifications, .qualifications li {
+	list-style: none;
+}
+
+.qualifications li {
+	line-height: 1.8em;
+}
+
+.qualification {
+	margin-bottom: 3em;
+}
+
+.qualification:after{
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.qualification .qualification-details {
+	float: left; 
+	font-size: 0.9em;
+	font-family: 'Questrial', helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+}
+
+.qualification date {
+	color: #8da0b5;
+	float: left;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 2em;	
+	font-weight: normal;
+	margin-right: 1.5em;
+}
+
+.qualification .qualification-name {
+	color: #A6F3FF;
+	font-size: 1.1em;
+}
+
+/* Projects
+--------------------------------------------------------*/
+.projects {
+	list-style: none;
+	padding-left: 0;
+}
+
+.projects .project {
+	margin-bottom: 5em;
+}
+
+.projects .project p {
+	margin-bottom: 1em;
+}
+
+/* Section Contact
+--------------------------------------------------------*/
+
+#section-contact {
+	background: #1E2E3D;
+}
+
+/* Responsive 
+--------------------------------------------------------*/
+
+@media(max-width:767px){
+
+	
+	h2 {
+		font-size: 1.2em;
+	}
+	
+	p {
+		font-size: 0.85em;
+	}
+
+	.container { 
+		padding: 0;
+	}
+	
+	.jumbotron {
+		padding: 10px;
+		line-height: 1em;
+	}
+
+	blockquote {
+		padding: 5px 10px;
+	}
+	
+	.jumbotron cite {
+		font-size: 0.8em;
+	}
+	
+	ul.tags li {
+		font-size: 0.7em;
+		padding: 2px 4px;
+	}
+	
+	.jumbotron h1 {
+		font-size: 1.1em;
+		line-height: 1.3em;
+	}
+	
+	.spice {
+		padding: 4em 1em;
+	}
+	
+	.spice h1 {
+		font-size: 2.1em;
+		line-height: 1.4em;
+	}
+	
+	.spice p {
+		font-size: 1.3em;
+		line-height: 1.5em;
+		width: auto;
+	}
+	
+	.spice-big {
+		padding: 5em 1em;
+	}
+	
+	#section-hello, #section-hello h1 {
+		font-size: 1.2em;
+	}
+	
+	#section-hello #description {
+		font-size: 0.6em;
+	}
+
+	#section-hello #img-placeholder {
+		background: none;
+		width: auto;
+		height: auto;
+		padding-left: 0;
+		padding-top: 2em;
+	}
+	
+	#section-skills h2 {
+		font-size: 1.1em;
+		margin-bottom: 0.4em;
+	}
+	
+	.qualification date {
+		font-size: 1em;
+		width: 100%;
+	}
+	
+	.qualification .qualification-details {
+		font-size: 0.7em;
+		padding-left: 0
+	}
+	
+
+	.experience .experience-details {
+		padding-left: 0;
+		font-size: 0.7em;
+	}
+	
+	.experience .position {
+		font-size: 1.1em;
+	}
+
+	ul.tags {
+		line-height: 1.7em;
+	}
+
+	.experience date { 
+		font-size: 1em;
+		width: 100%;
+	}
+
+	blockquote { 
+		border-left: 3px solid #eee;
+	}
+}
+
+@media(min-width:768px){
+	
+	.navbar .container {
+		width: auto;
+	}
+	
+	#section-hello #description {
+		word-spacing: 5px;
+	}
+	
+	.spice h1 {
+		font-size: 2.6em;
+		line-height: 1.4em;
+	}
+	
+	.spice p {
+		line-height: 1.4em;
+	}
+	
+	.jumbotron h1 {
+		margin-bottom: 1em;
+	}
+	
+	.container .jumbotron {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	
+	ul.tags {
+		line-height: 1.5em;
+	}
+	
+	#section-skills h2 {
+		margin-bottom: 0.7em;
+	}
+	
+	.qualification date {
+		font-size: 1.3em;
+		margin-right: 15px;
+	}
+	
+	.qualification .qualification-name  {
+		font-size: 1em;
+	}
+	
+	.qualification .qualification-details {
+		font-size: 0.8em;
+		padding-top: 5px;
+		padding-left: 10px;
+	}
+
+	.experience .experience-details {
+		font-size: 0.8em;
+		padding-top: 5px;
+		padding-left: 10px;
+	}
+
+}
+
+
+
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
