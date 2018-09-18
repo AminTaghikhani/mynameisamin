@@ -205,6 +205,7 @@ ul.tags li {
 	font-family: Lato, Arial, Helvetica, sans-serif;
 	padding: 4px 11px;
 	text-shadow: 0 0 3px #111C26;
+	margin-right: 5px;
 }
 
 
@@ -250,7 +251,10 @@ ul.tags li {
 	-o-animation-delay: 1s;
 	-ms-animation-delay: 1s;
 }
-
+#section-hello #description span{
+	margin-right: 5px;
+	margin-left: 5px;
+}
 #section-hello #img-placeholder {
 	background-image: url("../images/img-bg.png");
 	background-repeat: no-repeat;
@@ -284,7 +288,9 @@ ul.tags li {
     height:48px;
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 .socialMedia>li>a{
     display: block;
@@ -352,7 +358,7 @@ ul.tags li {
 	letter-spacing: 1px;
 }
 
-.experience date {
+.experience span {
 	color: #748ca5;
 	float: left;
 	font-family: Lato, Arial, Helvetica, sans-serif;
@@ -406,7 +412,7 @@ ul.tags li {
 	letter-spacing: 1px;
 }
 
-.qualification date {
+.qualification span {
 	color: #8da0b5;
 	float: left;
 	font-family: Lato, Arial, Helvetica, sans-serif;
@@ -434,6 +440,11 @@ ul.tags li {
 .projects .project p {
 	margin-bottom: 1em;
 }
+
+.projects .project p a{
+	margin-left: 5px;
+}
+
 
 /* Section Contact
 --------------------------------------------------------*/
@@ -523,7 +534,7 @@ ul.tags li {
 		margin-bottom: 0.4em;
 	}
 	
-	.qualification date {
+	.qualification span {
 		font-size: 1em;
 		width: 100%;
 	}
@@ -547,7 +558,7 @@ ul.tags li {
 		line-height: 1.7em;
 	}
 
-	.experience date { 
+	.experience span { 
 		font-size: 1em;
 		width: 100%;
 	}
@@ -593,7 +604,7 @@ ul.tags li {
 		margin-bottom: 0.7em;
 	}
 	
-	.qualification date {
+	.qualification span {
 		font-size: 1.3em;
 		margin-right: 15px;
 	}
